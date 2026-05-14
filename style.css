@@ -1,0 +1,4 @@
+:root { --bg-color: #0f172a; --card-bg: #1e293b; --text: #f8fafc; }
+.light-theme { --bg-color: #f1f5f9; --card-bg: #ffffff; --text: #0f172a; }
+body { background-color: var(--bg-color); color: var(--text); font-family: sans-serif; }
+.card { background: var(--card-bg); padding: 2rem; border-radius: 16px; }
